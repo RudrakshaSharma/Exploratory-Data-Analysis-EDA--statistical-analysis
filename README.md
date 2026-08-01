@@ -152,9 +152,9 @@ Visualizations include:
 ![Spending Behaviour](Screenshot/Spending_Behaviour_By_Marital_Status.png)
 
 ---
-##Gender V/S Marital Status
+## Gender V/S Marital Status
 
-![Spending Behaviour](Screenshot/Spending_Behaviour_By_Marital_Status.png)
+![Spending Behaviour](Screenshot/Gender_vs_Marital_Status.png)
 
 ---
 ## Correlation Heatmap
