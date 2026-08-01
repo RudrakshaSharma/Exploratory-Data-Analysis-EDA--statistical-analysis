@@ -108,8 +108,33 @@ Visualizations include:
 - Correlation Heatmap
 - Stacked Bar Charts
 
+## Age Distribution
+
+![Age Distribution](Screenshot/Age_Distribution.png)
+
+---
+## Montly Spend-Box Plot
+
+## Gender-wise Spending
+
+![Heatmap](images/heatmap.png)
+
 ---
 
+## Education-wise Spending
+
+![Monthly Spending](images/monthly_spending.png)
+
+---
+## Total Spending By State
+
+## Monthly Spending Distribution
+
+![Gender Spending](images/gender_spending.png)
+---
+## Spendig Behaviour By Education Level
+## Spending Behaviour By MArtial Status
+##Gender V/S Marital Status
 ### 5. Correlation Analysis
 
 Analyzed relationships among numerical variables using:
