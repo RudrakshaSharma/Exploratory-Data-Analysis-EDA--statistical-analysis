@@ -115,26 +115,52 @@ Visualizations include:
 ---
 ## Montly Spend-Box Plot
 
+![Spending Behaviour](Screenshot/Monthly_spend_Box_Plot.png)
+
+---
 ## Gender-wise Spending
 
-![Heatmap](images/heatmap.png)
+![Gender](Screenshot/Avrage_spending_by_gender.png)
+
+![Gender](Screenshot/Total_Spending_By_Gender.png)
 
 ---
 
 ## Education-wise Spending
 
-![Monthly Spending](images/monthly_spending.png)
+![Education](Screenshot/Avrage_spending_on_education.png)
+
+![Education](Screenshot/Total_Spending_on_education.png)
 
 ---
 ## Total Spending By State
 
+![State](Screenshot/Total_Spending_By_State.png)
+
+---
 ## Monthly Spending Distribution
 
-![Gender Spending](images/gender_spending.png)
+![Gender Spending](Screenshot/Age_vs_Monthly_Spend.png)
 ---
 ## Spendig Behaviour By Education Level
-## Spending Behaviour By MArtial Status
+
+![Spending Behaviour](Screenshot/Spending_Behaviour_by_education_level.png)
+
+---
+## Spending Behaviour By Martial Status
+
+![Spending Behaviour](Screenshot/Spending_Behaviour_By_Marital_Status.png)
+
+---
 ##Gender V/S Marital Status
+
+![Spending Behaviour](Screenshot/Spending_Behaviour_By_Marital_Status.png)
+
+---
+## Correlation Heatmap
+
+![Heatmap](Screenshot/Correlation_Matrix.png)
+
 ### 5. Correlation Analysis
 
 Analyzed relationships among numerical variables using:
