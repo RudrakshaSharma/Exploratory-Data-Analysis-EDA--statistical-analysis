@@ -138,9 +138,9 @@ Visualizations include:
 ![State](Screenshot/Total_Spending_By_State.png)
 
 ---
-## Monthly Spending Distribution
+## Age vs Monthly Spend By Gender
 
-![Gender Spending](Screenshot/Age_vs_Monthly_Spend.png)
+![Gender Spending](Screenshot/Age_vs_MonthlySpend_by_gender.png)
 ---
 ## Spendig Behaviour By Education Level
 
@@ -185,98 +185,152 @@ Analyzed relationships among numerical variables using:
 
 ## 1️⃣ Gender vs Monthly Spend
 
-#### Business Question:
-Do male and female customers spend differently?
+### Business Question
 
-#### Test Used 
- Independent Two-Sample T-Test
+Do males and females spend differently?
 
-#### Results
- | Metric | Value |
- |---|---|
- |p-Value | 0.7345 |
- 
-#### Decision
-   Fail to reject the null hypothesis.
+### Test Used
 
-#### Business Insight
-   No statistically significant spending difference exists between male and female customers.
+Independent Two-Sample T-Test
 
-#### Recommendation
-   Avoid gender-based pricing or promotional strategies.
+### Results
+
+| Metric  | Value  |
+| ------- | ------ |
+| p-value | 0.7345 |
+
+### Decision
+
+Fail to reject the null hypothesis.
+
+### Business Insight
+
+No statistically significant spending difference exists between male and female customers.
+
+### Recommendation
+
+Avoid gender-based pricing or promotional strategies.
 
 ---
 
 ## 2️⃣ Education Level vs Monthly Spend
 
-#### Business Question:
- Does education level significantly affect monthly spending?
- 
- #### Test Used
-  One-Way ANOVA
+### Business Question
 
- #### Results 
-  | Metric | Value |
-  |---|---|
-  |p-Value | 0.9224 |
- 
- #### Decision
-  Fail to reject the null hypothesis.
- 
- #### Business Insight
-  Educational qualification does not significantly influence customer spending.
+Does education level impact spending?
 
- #### Recommendation
-  Segment customers based on behavior rather than education level.
+### Test Used
+
+One-Way ANOVA
+
+### Results
+
+| Metric  | Value  |
+| ------- | ------ |
+| p-value | 0.9224 |
+
+### Decision
+
+Fail to reject the null hypothesis.
+
+### Business Insight
+
+Educational qualification does not significantly influence customer spending.
+
+### Recommendation
+
+Segment customers based on behavior rather than education level.
 
 ---
 
-## 3️⃣ Age vs Customer Activity
+## 3️⃣ Marital Status vs Pet Ownership
 
-#### Business Question:
- Are older customers less active?
- 
- #### Test Used
-  Pearson Correlation Significance Test
+### Business Question
 
- #### Results 
-  | Metric | Value |
-  |---|---|
-  |p-Value | 0.6817 |
- 
- #### Decision
-  Fail to reject the null hypothesis.
- 
- #### Business Insight
- Older customers are not less active than younger customers. 
- 
- #### Recommendation
-  Engagement strategies should focus on customer behavior rather than age demographics.
-  
+Is marital status related to pet ownership?
+
+### Test Used
+
+Chi-Square Test of Independence
+
+### Results
+
+| Metric  | Value        |
+| ------- | ------------ |
+| p-value | 2.40 × 10⁻³⁷ |
+
+### Decision
+
+Reject the null hypothesis.
+
+### Business Insight
+
+A strong relationship exists between marital status and pet ownership.
+
+### Recommendation
+
+Develop pet-focused campaigns tailored to different marital segments.
+
 ---
 
-## 4️⃣ State-wise Spend Analysis
+## 4️⃣ Age vs Customer Activity
 
-#### Business Question:
+### Business Question
+
+Are older customers less active?
+
+### Test Used
+
+Pearson Correlation Significance Test
+
+### Results
+
+| Metric  | Value  |
+| ------- | ------ |
+| p-value | 0.6817 |
+
+### Decision
+
+Fail to reject the null hypothesis.
+
+### Business Insight
+
+Older customers are not less active than younger customers.
+
+### Recommendation
+
+Engagement strategies should focus on customer behavior rather than age demographics.
+
+---
+
+## 5️⃣ State-wise Spend Analysis
+
+### Business Question
+
 Does average spending vary across states?
- 
- #### Test Used
-  One-Way ANOVA
 
- #### Results 
-  | Metric | Value |
-  |---|---|
-  |p-Value | 0.3457 |
- 
- #### Decision
-  Fail to reject the null hypothesis.
- 
- #### Business Insight
-  Average customer spending remains statistically similar across states.
-  
- #### Recommendation
-  State-level marketing budgets should focus on customer volume rather than expected spending differences.
-  
+### Test Used
+
+One-Way ANOVA
+
+### Results
+
+| Metric  | Value  |
+| ------- | ------ |
+| p-value | 0.3457 |
+
+### Decision
+
+Fail to reject the null hypothesis.
+
+### Business Insight
+
+Average customer spending remains statistically similar across states.
+
+### Recommendation
+
+State-level marketing budgets should focus on customer volume rather than expected spending differences.
+
 ---
 
 ## 📈 Key Insights
@@ -363,6 +417,7 @@ Does average spending vary across states?
 customer-insights-eda
 │
 ├── Customer_insights_eda.ipynb
+├── Customer_insight_eda.html
 ├── US_Customer_Insights_Dataset.csv
 ├── README.md
 ├── requirements.txt
@@ -370,7 +425,7 @@ customer-insights-eda
 │
 └── Screenshot/
     ├── Age_Distribution.png
-    ├── Age_vs_Monthly_Spend.png
+    ├── Age_vs_MonthlySpend_by_gender.png
     ├── Avrage_spending_by_gender.png
     ├── Avrage_spending_on_education.png
     ├── Correlation_Matrix.png
